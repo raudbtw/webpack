@@ -1,0 +1,17 @@
+$primaryColor:aqua;
+$secondaryColor:red;
+
+html{
+    font-family: generalFont;
+}
+h1{
+    color: $primaryColor;
+}
+.container{
+    background: url(../images/js.png) no-repeat;
+    &__subheader{
+        color:$secondaryColor;
+        display: flex;
+        justify-content: center;
+    }
+}
